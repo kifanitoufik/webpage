@@ -228,8 +228,6 @@ export const content = {
           icon: "Home",
           details: [
             "Transactions immobilières",
-            "Projets de développement",
-            "Baux",
             "Litiges immobiliers"
           ]
         },
@@ -255,30 +253,20 @@ export const content = {
             "Vérification de conformité"
           ]
         },
-        {
-          title: "Droit fiscal",
-          description: "Services juridiques sur les impôts.",
-          icon: "Globe2",
-          details: [
-            "Impôts sur le revenu",
-            "Impôts sur les sociétés",
-            "Impôts sur les successions",
-          ]
-        }
       ]
     },
     contact: {
       title: "Contactez-nous",
       subtitle: "Planifiez une consultation",
       address: {
-        street: "123 Avenue Mohammed V",
+        street: "4 bis rue al marj",
         city: "Rabat",
         country: "Maroc",
         postal: "10000"
       },
-      email: "contact@elkifanilaw.com",
-      phone: "+212-537-000000",
-      whatsapp: "+212-669-577029",
+      email: "kifanitoufik@gmail.com",
+      phone: "+212-614-354-447",
+      whatsapp: "+212-614-354-447",
       hours: "Du lundi au vendredi : 9h00 - 18h00",
       map: {
         lat: 34.0209,
@@ -352,7 +340,7 @@ export const content = {
       contact: "اتصل بنا"
     },
     hero: {
-      title: "مكتب المحاماة الكفاني",
+      title: "مكتب المحاماة الكيفاني",
       subtitle: "التميز القانوني الموثوق في المغرب",
       cta: "حدد موعد استشارة",
       meta: {
