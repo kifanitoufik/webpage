@@ -14,13 +14,13 @@ export const Stats = ({ t }: StatsProps) => {
      description: "Experience"
    },
    {
-     value: "1000+", 
+     value: "2000+", 
      label: t.stats.cases,
      icon: Trophy,
      description: "Success"
    },
    {
-     value: "95%",
+     value: "90%",
      label: t.stats.rate,
      icon: ThumbsUp,
      description: "Satisfaction"

@@ -206,10 +206,8 @@ export const content = {
           description: "Conseils d'experts pour les entreprises en matière de création, de gouvernance et de transactions commerciales.",
           icon: "Building2",
           details: [
-            "Création et enregistrement d'entreprises",
-            "Gouvernance d'entreprise",
             "Contrats commerciaux",
-            "Fusions et acquisitions"
+            "Recouvrement de créances",
           ]
         },
         {
@@ -218,6 +216,7 @@ export const content = {
           icon: "Gavel",
           details: [
             "Contentieux civil",
+            "Contentieux fiscaux",
             "Différends commerciaux",
             "Modes alternatifs de résolution des conflits",
             "Droit administratif"
@@ -257,14 +256,13 @@ export const content = {
           ]
         },
         {
-          title: "Droit international",
-          description: "Services juridiques transfrontaliers pour les opérations commerciales mondiales.",
+          title: "Droit fiscal",
+          description: "Services juridiques sur les impôts.",
           icon: "Globe2",
           details: [
-            "Contrats internationaux",
-            "Investissement étranger",
-            "Transactions transfrontalières",
-            "Conformité internationale"
+            "Impôts sur le revenu",
+            "Impôts sur les sociétés",
+            "Impôts sur les successions",
           ]
         }
       ]
@@ -465,7 +463,7 @@ export const content = {
       schema: {
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "مكتب المحاماة الكفاني",
+        "name": "مكتب المحاماة الكيفاني",
         "image": ["https://elkifanilaw.com/logo.png"],
         "description": "مكتب محاماة رائد في الرباط يقدم خدمات قانونية شاملة.",
         "address": {
