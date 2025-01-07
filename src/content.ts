@@ -189,12 +189,12 @@ export const content = {
       contact: "Contact"
     },
     hero: {
-      title: "Cabinet d'avocats El Kifani",
+      title: "Cabinet d'avocat El Kifani",
       subtitle: "Excellence juridique de confiance au Maroc",
       cta: "Planifier une consultation",
       meta: {
-        description: "Cabinet d'avocats de premier plan à Rabat offrant des services juridiques complets. Plus de 30 ans d'excellence dans la représentation légale.",
-        keywords: "Cabinet d'avocats Maroc, services juridiques Rabat, droit des affaires Maroc, droit international"
+        description: "Cabinet d'avocat de premier plan à Rabat offrant des services juridiques complets. Plus de 30 ans d'excellence dans la représentation légale.",
+        keywords: "Cabinet d'avocat Maroc, services juridiques Rabat, droit des affaires Maroc, droit international"
       }
     },
     services: {
@@ -292,7 +292,7 @@ export const content = {
     stats: {
       years: "Années d'excellence",
       cases: "Cas réussis",
-      lawyers: "Avocats experts",
+      lawyers: "avocat experts",
       rate: "Taux de réussite",
       trusted: "Confié par des organisations de premier plan"
     },
@@ -300,9 +300,9 @@ export const content = {
       schema: {
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "Cabinet d'avocats El Kifani",
+        "name": "Cabinet d'avocat El Kifani",
         "image": ["https://elkifanilaw.com/logo.png"],
-        "description": "Cabinet d'avocats de premier plan à Rabat offrant des services juridiques complets.",
+        "description": "Cabinet d'avocat de premier plan à Rabat offrant des services juridiques complets.",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "123 Avenue Mohammed V",

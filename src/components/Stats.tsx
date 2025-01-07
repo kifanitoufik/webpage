@@ -20,12 +20,6 @@ export const Stats = ({ t }: StatsProps) => {
      description: "Success"
    },
    {
-     value: "50+",
-     label: t.stats.lawyers,
-     icon: Users2,
-     description: "Expertise"
-   },
-   {
      value: "95%",
      label: t.stats.rate,
      icon: ThumbsUp,
@@ -37,7 +31,7 @@ export const Stats = ({ t }: StatsProps) => {
    <section className="py-24 bg-brand-sand/5">
      <div className="container mx-auto px-4">
        {/* Stats Grid */}
-       <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8">
+       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
          {stats.map((stat, index) => (
            <StatCard
              key={index}
