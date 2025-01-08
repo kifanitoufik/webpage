@@ -1,14 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/webpage/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maitre El Kifani</title>
-    <script type="module" crossorigin src="/webpage/assets/index-CNL7yoH8.js"></script>
-    <link rel="stylesheet" crossorigin href="/webpage/assets/index-BGJSmDhn.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elkifani</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        .content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+
+        .dark-theme {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .dark-theme .content {
+            background-color: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+    
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+    </header>
+
+    <div class="content">
+        <h2>About</h2>
+        <p>This is a simple webpage with some interactive elements and a theme switcher.</p>
+        
+        <h2>Interactive Counter</h2>
+        <p>Click count: <span id="counter">0</span></p>
+        <button onclick="incrementCounter()">Click me!</button>
+    </div>
+
+    <script>
+        // JavaScript functionality
+        let count = 0;
+        const counterElement = document.getElementById('counter');
+
+        function incrementCounter() {
+            count++;
+            counterElement.textContent = count;
+            if (count % 10 === 0) {
+                alert('You reached ' + count + ' clicks!');
+            }
+        }
+
+        function toggleTheme() {
+            document.body.classList.toggle('dark-theme');
+        }
+
+        // Add a welcome message
+        console.log('Welcome to the webpage! Try clicking the button and toggling the theme.');
+    </script>
+</body>
 </html>
