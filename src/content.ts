@@ -140,15 +140,15 @@ export const content = {
         "description": "Premier law firm in Rabat offering comprehensive legal services.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "123 Avenue Mohammed V",
+          "streetAddress": "4 rue al marj",
           "addressLocality": "Rabat",
           "postalCode": "10000",
           "addressCountry": "MA"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 34.0209,
-          "longitude": -6.8416
+          "latitude": 34.0199
+          "longitude":  -6.8305
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
