@@ -13,31 +13,19 @@ interface HeroProps {
 const isRTL = (lng: lng) => lng === 'ar';
 
 export const Hero = ({ t, lng }: HeroProps) => {
-  const [padding, setPadding] = useState(0);
-
-  // Calculate navbar height dynamically
-  useEffect(() => {
-    const navbar = document.querySelector('nav');
-    if (navbar) {
-      const navbarHeight = navbar.clientHeight;
-      setPadding(navbarHeight + 32); // Add 32px (2rem) extra space
-    }
-  }, []);
-
   return (
     <div
-      className={`relative min-h-screen flex items-center overflow-hidden ${
-        isRTL(lng) ? 'rtl' : ''
+      className={`relative min-h-screen flex items-center overflow-hidden pt-[150px] sm:pt-[70px] ${
+        isRTL(lng) ? "rtl" : ""
       }`}
-      dir={isRTL(lng) ? 'rtl' : 'ltr'}
-      style={{ paddingTop: `${padding}px`, paddingBottom: `${padding}px` }}
+      dir={isRTL(lng) ? "rtl" : "ltr"}
     >
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${lawImage})`,
-          transform: 'scale(1.15)',
+          transform: "scale(1.15)",
         }}
       />
       {/* Dark Overlay */}
@@ -47,16 +35,16 @@ export const Hero = ({ t, lng }: HeroProps) => {
         {/* Image Section */}
         <div className="flex justify-center">
           <div className="rounded-sm border border-brand-sand/20 w-4/5 md:w-full">
-            <img src={headshot} alt="Lawyer" className="w-full h-auto object-cover" />
+            <img
+              src={headshot}
+              alt="Lawyer"
+              className="w-full h-auto object-cover"
+            />
           </div>
         </div>
 
         {/* Text Content */}
-        <div
-          className={`space-y-8 ${
-            isRTL(lng) ? 'text-right' : 'text-left'
-          }`}
-        >
+        <div className={`space-y-8 ${isRTL(lng) ? "text-right" : "text-left"}`}>
           {/* Icon */}
           <div className="inline-block">
             <Scale className="w-12 h-12 text-brand-sand" />
