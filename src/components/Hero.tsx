@@ -18,6 +18,7 @@ export const Hero = ({ t, lng }: HeroProps) => (
       isRTL(lng) ? 'rtl' : ''
     }`}
     dir={isRTL(lng) ? 'rtl' : 'ltr'} // Set text direction dynamically
+    style={{ paddingTop: '5rem', paddingBottom: '5rem' }} // Add top and bottom padding
   >
     {/* Background Image */}
     <div
@@ -31,11 +32,14 @@ export const Hero = ({ t, lng }: HeroProps) => (
     <div className="absolute inset-0 bg-brand-dark/20" />
 
     <div className="container mx-auto px-4 grid md:grid-cols-2 gap-16 items-center relative z-10">
-      <div className="hidden md:block">
-        <div className="rounded-sm border border-brand-sand/20">
-          <img src={headshot} alt="Lawyer" className="w-full h-full object-cover" />
+      {/* Image Section */}
+      <div className="flex justify-center">
+        <div className="rounded-sm border border-brand-sand/20 w-4/5 md:w-full">
+          <img src={headshot} alt="Lawyer" className="w-full h-auto object-cover" />
         </div>
       </div>
+
+      {/* Text Content */}
       <div
         className={`space-y-8 ${
           isRTL(lng) ? 'text-right' : 'text-left'
