@@ -242,7 +242,7 @@ export const content = {
       title: "Contactez-nous",
       subtitle: "Planifiez une consultation",
       address: {
-        street: "4 Bis Rue Al Marj",
+        street: "4 Bis Rue Al 4 Bis Rue Al Marj",
         city: "Rabat",
         country: "Maroc",
         postal: "10000"
@@ -273,7 +273,7 @@ export const content = {
         "description": "Cabinet d'avocat de premier plan à Rabat offrant des services juridiques complets.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "4 Bis Rue Al Marj",
+          "streetAddress": "4 Bis Rue Al 4 Bis Rue Al Marj",
           "addressLocality": "Rabat",
           "postalCode": "10000",
           "addressCountry": "MA"
@@ -392,7 +392,7 @@ export const content = {
       "title": "اتصل بنا",
       "subtitle": "حدد موعد استشارة",
       "address": {
-        "street": "4 Bis Rue Al Marj",
+        "street": "4 Bis Rue Al 4 Bis Rue Al Marj",
         "city": "الرباط",
         "country": "المغرب",
         "postal": "10000"
@@ -423,7 +423,7 @@ export const content = {
         "description": "مكتب محاماة رائد في الرباط يقدم خدمات قانونية شاملة.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "4 Bis Rue Al Marj",
+          "streetAddress": "4 Bis Rue Al 4 Bis Rue Al Marj",
           "addressLocality": "الرباط",
           "postalCode": "10000",
           "addressCountry": "MA"
