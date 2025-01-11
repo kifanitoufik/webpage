@@ -66,6 +66,8 @@ export const Hero = ({ t }: HeroProps) => (
             <a 
               href={`mailto:${t.contact.email}`}
               className="inline-flex items-center justify-center w-12 h-12 bg-brand-slate hover:bg-brand-slate-dark border border-brand-sand/20 hover:border-brand-sand/30 rounded-lg text-brand-sand transition-colors"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <Mail className="w-5 h-5" />
             </a>
