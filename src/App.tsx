@@ -26,7 +26,7 @@ const App = () => {
       
       {/* Main Content */}
       <main>
-        <Hero t={currentContent} />
+        <Hero t={currentContent} lng={lang}/>
         <Stats t={currentContent} />
         <Services t={currentContent} />
         <Contact t={currentContent} />

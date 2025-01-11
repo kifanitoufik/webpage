@@ -1,25 +1,30 @@
-import { Scale, ArrowRight, Phone, Mail } from 'lucide-react';
+import { Scale, ArrowRight, ArrowLeft, Phone, Mail } from 'lucide-react';
 import { Content } from '../types';
 import lawImage from '../assets/law15.jpg';
 import headshot from '../assets/headshot.jpg';
+import { lng } from './Navigation';
 
 interface HeroProps {
   t: Content;
+  lng: lng;
 }
 
-// ... existing code ...
+// Helper function to determine if the language is RTL
+const isRTL = (lng: lng) => lng === 'ar';
 
-export const Hero = ({ t }: HeroProps) => (
-  <div 
-    className={`relative min-h-screen flex items-center overflow-hidden ${t.isRTL ? 'rtl' : ''}`}
-    dir={t.isRTL ? 'rtl' : 'ltr'} // Add this line to set text direction
+export const Hero = ({ t, lng }: HeroProps) => (
+  <div
+    className={`relative min-h-screen flex items-center overflow-hidden ${
+      isRTL(lng) ? 'rtl' : ''
+    }`}
+    dir={isRTL(lng) ? 'rtl' : 'ltr'} // Set text direction dynamically
   >
     {/* Background Image */}
-    <div 
+    <div
       className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-      style={{ 
+      style={{
         backgroundImage: `url(${lawImage})`,
-        transform: 'scale(1.15)'
+        transform: 'scale(1.15)',
       }}
     />
     {/* Dark Overlay */}
@@ -31,42 +36,50 @@ export const Hero = ({ t }: HeroProps) => (
           <img src={headshot} alt="Lawyer" className="w-full h-full object-cover" />
         </div>
       </div>
-      <div className={`text-left space-y-8 ${t.isRTL ? 'text-right' : ''}`}>
+      <div
+        className={`space-y-8 ${
+          isRTL(lng) ? 'text-right' : 'text-left'
+        }`} // Apply text alignment dynamically
+      >
         {/* Icon */}
         <div className="inline-block">
           <Scale className="w-12 h-12 text-brand-sand" />
         </div>
-        
+
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl font-serif text-white leading-tight">
             {t.hero.title}
           </h1>
-          
+
           <p className="text-xl text-slate-200 max-w-xl leading-relaxed">
             {t.hero.subtitle}
           </p>
         </div>
 
-        <div className={`flex flex-col sm:flex-row gap-4 pt-4 ${t.isRTL ? 'flex-row-reverse' : ''}`}>
-          <a 
-            href="#contact" 
+        <div className={`flex flex-col sm:flex-row gap-4 pt-4`}>
+          <a
+            href="#contact"
             className="inline-flex items-center gap-2 px-6 py-3 text-white bg-brand-sand hover:bg-brand-sand-dark transition-colors rounded-lg"
           >
             <span>{t.hero.cta}</span>
-            <ArrowRight className="w-4 h-4" />
+            {isRTL(lng) ? (
+              <ArrowLeft className="w-4 h-4" />
+            ) : (
+              <ArrowRight className="w-4 h-4" />
+            )}
           </a>
-          
+
           <div className="flex gap-4">
-            <a 
+            <a
               href={`tel:${t.contact.phone}`}
               className="inline-flex items-center justify-center w-12 h-12 bg-brand-slate hover:bg-brand-slate-dark border border-brand-sand/20 hover:border-brand-sand/30 rounded-lg text-brand-sand transition-colors"
             >
               <Phone className="w-5 h-5" />
             </a>
-            <a 
+            <a
               href={`mailto:${t.contact.email}`}
               className="inline-flex items-center justify-center w-12 h-12 bg-brand-slate hover:bg-brand-slate-dark border border-brand-sand/20 hover:border-brand-sand/30 rounded-lg text-brand-sand transition-colors"
-              target="_blank" 
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Mail className="w-5 h-5" />
