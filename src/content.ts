@@ -147,7 +147,7 @@ export const content = {
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 34.0199
+          "latitude": 34.0199,
           "longitude":  -6.8305
         },
         "openingHoursSpecification": {
