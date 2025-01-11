@@ -24,7 +24,7 @@ export const content = {
       "contact": "Contact"
     },
     "hero": {
-      "title": "El Kifani Law Firm",
+      "title": "Elkifani Law Firm",
       "subtitle": "Trusted Legal Excellence in Morocco",
       "cta": "Schedule a Consultation",
       "meta": {
@@ -119,7 +119,7 @@ export const content = {
       "schema": {
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "El Kifani Law Firm",
+        "name": "Elkifani Law Firm",
         "image": ["https://elkifanilaw.com/logo.png"],
         "description": "Leading law firm in Rabat providing comprehensive legal services.",
         "address": {
@@ -172,7 +172,7 @@ export const content = {
       contact: "Contact"
     },
     hero: {
-      title: "Cabinet d'avocat El Kifani",
+      title: "Cabinet d'avocat Elkifani",
       subtitle: "Excellence juridique de confiance au Maroc",
       cta: "Planifier une consultation",
       meta: {
@@ -268,7 +268,7 @@ export const content = {
       schema: {
         "@context": "https://schema.org",
         "@type": "LegalService",
-        "name": "Cabinet d'avocat El Kifani",
+        "name": "Cabinet d'avocat Elkifani",
         "image": ["https://elkifanilaw.com/logo.png"],
         "description": "Cabinet d'avocat de premier plan à Rabat offrant des services juridiques complets.",
         "address": {

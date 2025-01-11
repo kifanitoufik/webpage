@@ -47,11 +47,11 @@ const App = () => {
               <div className="text-brand-steel">
                 <div className="flex items-center gap-2 mb-4">
                   <span className="font-serif text-xl text-brand-coffee">
-                    El Kifani Law
+                    Elkifani Law
                   </span>
                 </div>
                 <p className="text-sm">
-                  © 2025 El Kifani Law. {
+                  © 2025 Elkifani Law. {
                     lang === 'fr' ? 'Tous droits réservés.' :
                     lang === 'ar' ? 'جميع الحقوق محفوظة.' :
                     'All rights reserved.'

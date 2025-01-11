@@ -25,7 +25,7 @@ export const Navigation = ({ t, lang, setLang }: NavigationProps) => {
           <div className="text-xl md:text-2xl font-serif flex items-center gap-3">
             <Scale className="w-6 h-6 md:w-8 md:h-8 text-brand-coffee" />
             <span className="hidden sm:inline text-brand-coffee">{t.hero.title}</span>
-            <span className="sm:hidden text-brand-coffee">El Kifani</span>
+            <span className="sm:hidden text-brand-coffee">Elkifani</span>
           </div>
 
           {/* Desktop Navigation */}
