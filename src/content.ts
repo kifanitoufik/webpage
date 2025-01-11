@@ -94,7 +94,7 @@ export const content = {
       "title": "Contact Us",
       "subtitle": "Schedule a Consultation",
       "address": {
-        "street": "4 bis rue al marj",
+        "street": "4 Bis Rue Al Marj",
         "city": "Rabat",
         "country": "Morocco",
         "postal": "10000"
@@ -104,9 +104,8 @@ export const content = {
       "whatsapp": "+212-614-354-447",
       "hours": "Monday to Friday: 9:00 AM - 6:00 PM",
       "map": {
-        "lat": 34.0209,
-        "lng": -6.8416,
-        "place_id": "ChIJK_JaoVbBpw0RXMqwXZuK1Lw"
+        "lat": 34.0198772,
+        "lng": -6.8323579,
       },
       "cta": "Contact us today to discuss your legal needs with our experienced team."
     },
@@ -126,15 +125,15 @@ export const content = {
         "description": "Leading law firm in Rabat providing comprehensive legal services.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "123 Avenue Mohammed V",
+          "streetAddress": "4 Bis Rue Al Marj",
           "addressLocality": "Rabat",
           "postalCode": "10000",
           "addressCountry": "MA"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 34.0209,
-          "longitude": -6.8416
+          "latitude": 34.0198772,
+          "longitude": -6.8323579
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -245,7 +244,7 @@ export const content = {
       title: "Contactez-nous",
       subtitle: "Planifiez une consultation",
       address: {
-        street: "4 bis rue al marj",
+        street: "4 Bis Rue Al Marj",
         city: "Rabat",
         country: "Maroc",
         postal: "10000"
@@ -255,9 +254,8 @@ export const content = {
       whatsapp: "+212-614-354-447",
       hours: "Du lundi au vendredi : 9h00 - 18h00",
       map: {
-        lat: 34.0209,
-        lng: -6.8416,
-        place_id: "ChIJK_JaoVbBpw0RXMqwXZuK1Lw"
+        lat: 34.0198772,
+        lng:-6.8323579,
       },
       cta: "Contactez-nous dès aujourd'hui pour discuter de vos besoins juridiques avec notre équipe expérimentée."
     },
@@ -277,15 +275,15 @@ export const content = {
         "description": "Cabinet d'avocat de premier plan à Rabat offrant des services juridiques complets.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "123 Avenue Mohammed V",
+          "streetAddress": "4 Bis Rue Al Marj",
           "addressLocality": "Rabat",
           "postalCode": "10000",
           "addressCountry": "MA"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 34.0209,
-          "longitude": -6.8416
+          "latitude": 34.0198772,
+          "longitude": -6.8323579
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -396,7 +394,7 @@ export const content = {
       "title": "اتصل بنا",
       "subtitle": "حدد موعد استشارة",
       "address": {
-        "street": "4 bis شارع المرج",
+        "street": "4 Bis Rue Al Marj",
         "city": "الرباط",
         "country": "المغرب",
         "postal": "10000"
@@ -406,9 +404,8 @@ export const content = {
       "whatsapp": "+212-614-354-447",
       "hours": "من الاثنين إلى الجمعة: 9:00 صباحًا - 6:00 مساءً",
       "map": {
-        "lat": 34.0209,
-        "lng": -6.8416,
-        "place_id": "ChIJK_JaoVbBpw0RXMqwXZuK1Lw"
+        "lat": 34.0198772,
+        "lng":-6.8323579,
       },
       "cta": "اتصل بنا اليوم لمناقشة احتياجاتك القانونية مع فريقنا المتمرس."
     },
@@ -428,15 +425,15 @@ export const content = {
         "description": "مكتب محاماة رائد في الرباط يقدم خدمات قانونية شاملة.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "123 شارع محمد الخامس",
+          "streetAddress": "4 Bis Rue Al Marj",
           "addressLocality": "الرباط",
           "postalCode": "10000",
           "addressCountry": "MA"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 34.0209,
-          "longitude": -6.8416
+          "latitude": 34.0198772,
+          "longitude": -6.8323579
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",

@@ -82,9 +82,8 @@ export const Contact = ({ t }: ContactProps) => (
               title="Office Location"
               width="100%"
               height="100%"
-              frameBorder="0"
               style={{ border: 0 }}
-              src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCGXRa_5IdqI4kOTStKoWJIuwpqS_Sw0ys&q=place_id:${t.contact.map.place_id}&zoom=15`}
+              src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyCGXRa_5IdqI4kOTStKoWJIuwpqS_Sw0ys&q=${t.contact.map.lat},${t.contact.map.lng}&zoom=15`}
               allowFullScreen
             />
           </div>

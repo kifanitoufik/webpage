@@ -18,7 +18,7 @@ const App = () => {
   };
 
   // Format phone number for WhatsApp
-  const phoneNumber = "212669577029";
+  const phoneNumber = "212614354447";
 
   return (
     <div className={`min-h-screen bg-white ${lang === 'ar' ? 'rtl' : 'ltr'}`}>
