@@ -1,154 +1,140 @@
 // content.ts
 export const content = {
-  en: {
-    nav: {
-      home: "Home",
-      about: {
-        title: "About",
-        team: "Our Team",
-        expertise: "Areas of Expertise",
-        testimonials: "Client Stories"
+  "en": {
+    "nav": {
+      "home": "Home",
+      "about": {
+        "title": "About Us",
+        "team": "Our Team",
+        "expertise": "Areas of Expertise",
+        "testimonials": "Client Stories"
       },
-      services: {
-        title: "Services",
-        business: "Business Law",
-        litigation: "Litigation",
-        personal: "Personal Legal Services"
+      "services": {
+        "title": "Services",
+        "business": "Business Law",
+        "litigation": "Litigation",
+        "personal": "Personal Legal Services"
       },
-      resources: {
-        title: "Resources",
-        blog: "Insights",
-        faq: "FAQ",
-        downloads: "Legal Guides"
+      "resources": {
+        "title": "Resources",
+        "blog": "Legal Insights",
+        "faq": "FAQ",
+        "downloads": "Legal Guides"
       },
-      contact: "Contact"
+      "contact": "Contact"
     },
-    hero: {
-      title: "El Kifani Law Firm",
-      subtitle: "Trusted Legal Excellence in Morocco",
-      cta: "Schedule Consultation",
-      meta: {
-        description: "Premier law firm in Rabat offering comprehensive legal services. Over 30 years of excellence in legal representation.",
-        keywords: "Morocco law firm, Rabat legal services, business law Morocco, international law"
+    "hero": {
+      "title": "El Kifani Law Firm",
+      "subtitle": "Trusted Legal Excellence in Morocco",
+      "cta": "Schedule a Consultation",
+      "meta": {
+        "description": "Leading law firm in Rabat providing comprehensive legal services. Over 30 years of excellence in legal representation.",
+        "keywords": "Law firm Morocco, legal services Rabat, business law Morocco, international law"
       }
     },
-    services: {
-      title: "Our Services",
-      subtitle: "Comprehensive Legal Solutions",
-      items: [
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive Legal Solutions",
+      "items": [
         {
-          title: "Corporate Law",
-          description: "Expert guidance for businesses on formation, governance, and commercial transactions.",
-          icon: "Building2",
-          details: [
-            "Business Formation & Registration",
-            "Corporate Governance",
+          "title": "Corporate Law",
+          "description": "Expert advice for companies on formation, governance, and business transactions.",
+          "icon": "Building2",
+          "details": [
             "Commercial Contracts",
-            "Mergers & Acquisitions"
+            "Debt Recovery"
           ]
         },
         {
-          title: "Litigation",
-          description: "Strategic representation in civil and commercial disputes.",
-          icon: "Gavel",
-          details: [
+          "title": "Litigation",
+          "description": "Strategic representation in civil and commercial disputes.",
+          "icon": "Gavel",
+          "details": [
             "Civil Litigation",
+            "Tax Disputes",
             "Commercial Disputes",
             "Alternative Dispute Resolution",
             "Administrative Law"
           ]
         },
         {
-          title: "Real Estate",
-          description: "Comprehensive property law services for transactions and development.",
-          icon: "Home",
-          details: [
-            "Property Transactions",
-            "Development Projects",
-            "Lease Agreements",
-            "Property Disputes"
+          "title": "Real Estate Law",
+          "description": "Comprehensive legal services for real estate transactions and development projects.",
+          "icon": "Home",
+          "details": [
+            "Real Estate Transactions",
+            "Real Estate Litigation"
           ]
         },
         {
-          title: "Family Law",
-          description: "Sensitive handling of personal and family legal matters.",
-          icon: "Users",
-          details: [
-            "Marriage & Divorce",
+          "title": "Family Law",
+          "description": "Sensitive handling of personal and family legal matters.",
+          "icon": "Users",
+          "details": [
+            "Marriage and Divorce",
             "Child Custody",
             "Inheritance",
-            "Family Disputes"
+            "Family Conflicts"
           ]
         },
         {
-          title: "Contract Law",
-          description: "Expert drafting and negotiation of legal agreements.",
-          icon: "FileText",
-          details: [
+          "title": "Contract Law",
+          "description": "Drafting and negotiation of legal agreements.",
+          "icon": "FileText",
+          "details": [
             "Contract Drafting",
             "Contract Review",
             "Negotiations",
-            "Compliance Review"
-          ]
-        },
-        {
-          title: "International Law",
-          description: "Cross-border legal services for global business operations.",
-          icon: "Globe2",
-          details: [
-            "International Contracts",
-            "Foreign Investment",
-            "Cross-border Transactions",
-            "International Compliance"
+            "Compliance Checks"
           ]
         }
       ]
     },
-    contact: {
-      title: "Contact Us",
-      subtitle: "Schedule a Consultation",
-      address: {
-        street: "123 Avenue Mohammed V",
-        city: "Rabat",
-        country: "Morocco",
-        postal: "10000"
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Schedule a Consultation",
+      "address": {
+        "street": "4 bis rue al marj",
+        "city": "Rabat",
+        "country": "Morocco",
+        "postal": "10000"
       },
-      email: "contact@elkifanilaw.com",
-      phone: "+212-537-000000",
-      whatsapp: "+212-669-577029",
-      hours: "Monday - Friday: 9:00 AM - 6:00 PM",
-      map: {
-        lat: 34.0209,
-        lng: -6.8416,
-        place_id: "ChIJK_JaoVbBpw0RXMqwXZuK1Lw"
+      "email": "kifanitoufik@gmail.com",
+      "phone": "+212-614-354-447",
+      "whatsapp": "+212-614-354-447",
+      "hours": "Monday to Friday: 9:00 AM - 6:00 PM",
+      "map": {
+        "lat": 34.0209,
+        "lng": -6.8416,
+        "place_id": "ChIJK_JaoVbBpw0RXMqwXZuK1Lw"
       },
-      cta: "Contact us today to discuss your legal needs with our experienced team."
+      "cta": "Contact us today to discuss your legal needs with our experienced team."
     },
-    stats: {
-      years: "Years of Excellence",
-      cases: "Successful Cases",
-      lawyers: "Expert Lawyers",
-      rate: "Success Rate",
-      trusted: "Trusted by Leading Organizations"
+    "stats": {
+      "years": "Years of Excellence",
+      "cases": "Successful Cases",
+      "lawyers": "Expert Lawyers",
+      "rate": "Success Rate",
+      "trusted": "Trusted by Leading Organizations"
     },
-    seo: {
-      schema: {
+    "seo": {
+      "schema": {
         "@context": "https://schema.org",
         "@type": "LegalService",
         "name": "El Kifani Law Firm",
         "image": ["https://elkifanilaw.com/logo.png"],
-        "description": "Premier law firm in Rabat offering comprehensive legal services.",
+        "description": "Leading law firm in Rabat providing comprehensive legal services.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "4 rue al marj",
+          "streetAddress": "123 Avenue Mohammed V",
           "addressLocality": "Rabat",
           "postalCode": "10000",
           "addressCountry": "MA"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 34.0199,
-          "longitude":  -6.8305
+          "latitude": 34.0209,
+          "longitude": -6.8416
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -316,139 +302,125 @@ export const content = {
       }
     }
   },
-  ar: {
-    nav: {
-      home: "الرئيسية",
-      about: {
-        title: "عن المكتب",
-        team: "فريقنا",
-        expertise: "مجالات الخبرة",
-        testimonials: "قصص العملاء"
+  "ar": {
+    "nav": {
+      "home": "الرئيسية",
+      "about": {
+        "title": "عن المكتب",
+        "team": "فريق العمل",
+        "expertise": "مجالات الخبرة",
+        "testimonials": "قصص العملاء"
       },
-      services: {
-        title: "الخدمات",
-        business: "قانون الأعمال",
-        litigation: "التقاضي",
-        personal: "الخدمات القانونية الشخصية"
+      "services": {
+        "title": "الخدمات",
+        "business": "القانون التجاري",
+        "litigation": "التقاضي",
+        "personal": "الخدمات القانونية الشخصية"
       },
-      resources: {
-        title: "الموارد",
-        blog: "الرؤى القانونية",
-        faq: "الأسئلة الشائعة",
-        downloads: "أدلة قانونية"
+      "resources": {
+        "title": "الموارد",
+        "blog": "آراء قانونية",
+        "faq": "الأسئلة الشائعة",
+        "downloads": "أدلة قانونية"
       },
-      contact: "اتصل بنا"
+      "contact": "اتصل بنا"
     },
-    hero: {
-      title: "مكتب المحاماة الكيفاني",
-      subtitle: "التميز القانوني الموثوق في المغرب",
-      cta: "حدد موعد استشارة",
-      meta: {
-        description: "مكتب محاماة رائد في الرباط يقدم خدمات قانونية شاملة. أكثر من 30 عامًا من التميز في التمثيل القانوني.",
-        keywords: "مكتب محاماة المغرب، الخدمات القانونية الرباط، قانون الأعمال المغرب، القانون الدولي"
+    "hero": {
+      "title": "مكتب المحاماة الكيفاني",
+      "subtitle": "تميز قانوني موثوق في المغرب",
+      "cta": "حدد موعد استشارة",
+      "meta": {
+        "description": "مكتب محاماة رائد في الرباط يقدم خدمات قانونية شاملة. أكثر من 30 عامًا من التميز في التمثيل القانوني.",
+        "keywords": "مكتب محاماة المغرب، خدمات قانونية الرباط، القانون التجاري المغرب، القانون الدولي"
       }
     },
-    services: {
-      title: "خدماتنا",
-      subtitle: "حلول قانونية شاملة",
-      items: [
+    "services": {
+      "title": "خدماتنا",
+      "subtitle": "حلول قانونية شاملة",
+      "items": [
         {
-          title: "قانون الشركات",
-          description: "إرشادات خبراء للشركات في التأسيس، الحوكمة، والمعاملات التجارية.",
-          icon: "Building2",
-          details: [
-            "تأسيس وتسجيل الشركات",
-            "حوكمة الشركات",
+          "title": "قانون الشركات",
+          "description": "نصائح متخصصة للشركات بشأن التأسيس والإدارة والمعاملات التجارية.",
+          "icon": "Building2",
+          "details": [
             "العقود التجارية",
-            "الاندماجات والاستحواذات"
+            "تحصيل الديون"
           ]
         },
         {
-          title: "التقاضي",
-          description: "تمثيل استراتيجي في النزاعات المدنية والتجارية.",
-          icon: "Gavel",
-          details: [
+          "title": "التقاضي",
+          "description": "تمثيل استراتيجي في النزاعات المدنية والتجارية.",
+          "icon": "Gavel",
+          "details": [
             "التقاضي المدني",
+            "النزاعات الضريبية",
             "النزاعات التجارية",
-            "حل النزاعات البديلة",
+            "حل النزاعات البديل",
             "القانون الإداري"
           ]
         },
         {
-          title: "قانون العقارات",
-          description: "خدمات قانونية شاملة في المعاملات العقارية ومشاريع التطوير.",
-          icon: "Home",
-          details: [
+          "title": "قانون العقارات",
+          "description": "خدمات قانونية شاملة للمعاملات والمشاريع العقارية.",
+          "icon": "Home",
+          "details": [
             "المعاملات العقارية",
-            "مشاريع التطوير",
-            "اتفاقيات الإيجار",
             "النزاعات العقارية"
           ]
         },
         {
-          title: "قانون الأسرة",
-          description: "التعامل الحساس مع المسائل القانونية الشخصية والعائلية.",
-          icon: "Users",
-          details: [
+          "title": "قانون الأسرة",
+          "description": "معالجة حساسة للقضايا القانونية الشخصية والعائلية.",
+          "icon": "Users",
+          "details": [
             "الزواج والطلاق",
             "حضانة الأطفال",
             "الميراث",
-            "النزاعات الأسرية"
+            "النزاعات العائلية"
           ]
         },
         {
-          title: "قانون العقود",
-          description: "إعداد وصياغة العقود القانونية والتفاوض بشأنها.",
-          icon: "FileText",
-          details: [
+          "title": "قانون العقود",
+          "description": "صياغة وتفاوض الاتفاقيات القانونية.",
+          "icon": "FileText",
+          "details": [
             "صياغة العقود",
             "مراجعة العقود",
-            "التفاوضات",
-            "مراجعة الامتثال"
-          ]
-        },
-        {
-          title: "القانون الدولي",
-          description: "خدمات قانونية عبر الحدود لعمليات الأعمال العالمية.",
-          icon: "Globe2",
-          details: [
-            "العقود الدولية",
-            "الاستثمار الأجنبي",
-            "المعاملات عبر الحدود",
-            "الامتثال الدولي"
+            "التفاوض",
+            "التأكد من الامتثال"
           ]
         }
       ]
     },
-    contact: {
-      title: "اتصل بنا",
-      subtitle: "حدد موعد استشارة",
-      address: {
-        street: "123 شارع محمد الخامس",
-        city: "الرباط",
-        country: "المغرب",
-        postal: "10000"
+    "contact": {
+      "title": "اتصل بنا",
+      "subtitle": "حدد موعد استشارة",
+      "address": {
+        "street": "4 bis شارع المرج",
+        "city": "الرباط",
+        "country": "المغرب",
+        "postal": "10000"
       },
-      email: "contact@elkifanilaw.com",
-      phone: "+212-537-000000",
-      whatsapp: "+212-669-577029",
-      hours: "من الإثنين إلى الجمعة: 9:00 صباحًا - 6:00 مساءً",
-      map: {
-        lat: 34.0209,
-        lng: -6.8416,
-        place_id: "ChIJK_JaoVbBpw0RXMqwXZuK1Lw"
+      "email": "kifanitoufik@gmail.com",
+      "phone": "+212-614-354-447",
+      "whatsapp": "+212-614-354-447",
+      "hours": "من الاثنين إلى الجمعة: 9:00 صباحًا - 6:00 مساءً",
+      "map": {
+        "lat": 34.0209,
+        "lng": -6.8416,
+        "place_id": "ChIJK_JaoVbBpw0RXMqwXZuK1Lw"
       },
-      cta: "اتصل بنا اليوم لمناقشة احتياجاتك القانونية مع فريقنا ذي الخبرة."
+      "cta": "اتصل بنا اليوم لمناقشة احتياجاتك القانونية مع فريقنا المتمرس."
     },
-    stats: {
-      years: "سنوات من التميز",
-      cases: "القضايا الناجحة",
-      lawyers: "محامون خبراء",
-      rate: "معدل النجاح",
-      trusted: "موثوق به من قبل المنظمات الرائدة"
+    "stats": {
+      "years": "سنوات من التميز",
+      "cases": "القضايا الناجحة",
+      "lawyers": "محامون خبراء",
+      "rate": "نسبة النجاح",
+      "trusted": "موثوق به من قبل مؤسسات رائدة"
     },
-    seo: {
-      schema: {
+    "seo": {
+      "schema": {
         "@context": "https://schema.org",
         "@type": "LegalService",
         "name": "مكتب المحاماة الكيفاني",
@@ -469,7 +441,7 @@ export const content = {
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
-            "الإثنين",
+            "الاثنين",
             "الثلاثاء",
             "الأربعاء",
             "الخميس",
