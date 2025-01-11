@@ -28,7 +28,7 @@ export const Stats = ({ t }: StatsProps) => {
  ];
 
  return (
-   <section className="py-24 bg-brand-sand/5">
+   <section id="about" className="py-24 bg-brand-sand/5">
      <div className="container mx-auto px-4">
        {/* Stats Grid */}
        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">

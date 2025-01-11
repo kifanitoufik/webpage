@@ -33,7 +33,6 @@ export const Navigation = ({ t, lang, setLang }: NavigationProps) => {
             {/* Navigation Links */}
             <NavLink href="#about">{t.nav.about.title}</NavLink>
             <NavLink href="#services">{t.nav.services.title}</NavLink>
-            <NavLink href="#resources">{t.nav.resources.title}</NavLink>
             <NavLink href="#contact">{t.nav.contact}</NavLink>
 
             {/* Language Selector */}
