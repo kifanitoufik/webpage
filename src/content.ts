@@ -94,6 +94,7 @@ export const content = {
       "title": "Contact Us",
       "subtitle": "Schedule a Consultation",
       "address": {
+        "street": "4 Bis Rue Al Marj", 
         "city": "Rabat",
         "country": "Morocco",
         "postal": "10000"
